@@ -497,6 +497,8 @@ def shap_vs_lime_comparison(features_sorted, shap_importance_dict, lime_avg_impo
 
 # --- 主程序 ---
 if __name__ == "__main__":
+    # 公众号链接：https://mp.weixin.qq.com/s/quMVYyL_QCx1UrOi2I4MSw
+
     # --- 1. 数据加载与初步探查 ---
     file_path = '公众号Python机器学习ml-2025-7-26数据.csv'  # 请替换为您的数据文件路径
     data = load_and_inspect_data(file_path)
